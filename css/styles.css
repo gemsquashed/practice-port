@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+    background-color: 1f1f1f;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* Section styles */
+header {
+    background-color: 1f1f1f;
+    padding: 25px;
+}
+
+.projects {
+    background-color: white;
+    padding: 35px 15px 35px 15px;
+}
+
+.about {
+    background-color:lightcoral;
+    color: white;
+    padding: 35px 15px 35px 15px;
+}
+
+.process {
+    background-color: #333333;
+    color: white;
+    padding: 35px 15px;
+}
+
+footer {
+    background-color: gainsboro;
+    padding: 50px 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* Heading styles */
+h1 {
+    color: #181818;
+    font-size: 2.3eam;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1em;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.35);
+    margin: 15px 0 5px 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #181818;
+    font-size:1.15em;
+    font-weight:700;
+    text-align: center;
+    margin: 5px 0 10px 0;
+    text-transform: uppercase;
+} 
+
+h3 {
+    font-size:1.4em;
+    font-weight:900;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+} 
+
+h4 {
+    font-size:1.15em;
+    font-weight:600;
+    color: white;
+    text-shadow: 0 1px 1px #333333;
+} 
+
+
+/* Project tile styles */
+.project {
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    margin: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px darkgrey;
+    min-height: 100px;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
+
+.project:focus {
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
+
+
+/* Button styles */
+
+
+/* Link styles */
